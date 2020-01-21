@@ -1,0 +1,27 @@
+h1{
+   text-align:center;
+   color:red;
+}
+body{
+  background-color:green;
+  }
+
+ h2:hover{
+     text-align:center;
+      color:green;
+      background-color:salmon;
+      padding:0.5cm;
+       border:solid red 0.2cm;
+       border-radius: 12px;
+       
+      color:blue;
+  }
+h2{
+     text-align:center;
+      color:blue;
+      background-color:yellow;
+      padding:0.5;
+       border:solid red 0.2cm;
+       border-radius: 12px;
+      color:blue;
+  }
