@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input{
+background-color:white;
+border:solid green 0.1cm;
+padding:12;
+}
+
+
+body{
+background-image:url(sit);
+background-attachment:fixed;
+}
+h1{
+ text-align:center;
+ color:green;
+ background-color:red;
+ 
+}
+p{
+text-align:center;
+color:blue;
+background-reapt:no-reapt;
+background-color:pink;
+padding:0.5cm;
+border:solid green 0.3cm;
+}
+em{
+text-align:center;
+ color:red;
+ background-color:yellow;
+}
+i{
+text-align:center;
+ color:red;
+}
+
+
+</style>
+</head>
+<body>
+<form>
+  <h1>ENTER THE VALID SIT USN NUMBER</h1>
+  <input id="frm1" type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+<p id="demo"> all the best guys </p>
+
+<script>
+function myFunction() {
+  var str = " 1SI17BT001 28.000000 B 31.500000 S 28.000000 B 32.000000 A 13.500000 S 24.000000 A 21.000000 B 24.000000 A PP 7.770000 7.390000 11 11 1SI17BT002 28.000000 B 28.000000 A 28.000000 B 24.000000 C 13.500000 S 27.000000 S 21.000000 B 18.000000 C PP 7.180000 6.960000 16 15 1SI17BT003 24.000000 C 28.000000 A 28.000000 B 28.000000 B 13.500000 S 24.000000 A 24.000000 A 24.000000 A PP 7.440000 7.290000 13 14 1SI17BT004 28.000000 B 24.500000 B 28.000000 B 32.000000 A 15.000000 S+ 24.000000 A 24.000000 A 27.000000 S PP 7.790000 7.420000 10 10 1SI17BT005 36.000000 S 31.500000 S 32.000000 A 32.000000 A 13.500000 S 27.000000 S 24.000000 A 27.000000 S PP 8.580000 8.180000 4 6 1SI17BT006 36.000000 S 31.500000 S 36.000000 S 40.000000 S+ 15.000000 S+ 27.000000 S 27.000000 S 27.000000 S PP 9.210000 8.780000 2 2 1SI17BT007 32.000000 A 31.500000 S 32.000000 A 32.000000 A 15.000000 S+ 27.000000 S 21.000000 B 24.000000 A PP 8.250000 8.260000 6 4 1SI17BT008 32.000000 A 28.000000 A 32.000000 A 36.000000 S 13.500000 S 24.000000 A 27.000000 S 27.000000 S PP 8.440000 8.380000 5 3 1SI17BT009 28.000000 B 24.500000 B 28.000000 B 28.000000 B 15.000000 S+ 21.000000 B 21.000000 B 24.000000 A PP 7.290000 7.440000 15 9 1SI17BT010 28.000000 B 28.000000 A 32.000000 A 32.000000 A 15.000000 S+ 24.000000 A 24.000000 A 27.000000 S PP 8.080000 7.610000 8 8 1SI17BT011 28.000000 B 24.500000 B 28.000000 B 32.000000 A 13.500000 S 21.000000 B 24.000000 A 24.000000 A PP 7.500000 7.380000 12 12 1SI17BT012 28.000000 B 31.500000 S 32.000000 A 32.000000 A 12.000000 A 24.000000 A 24.000000 A 27.000000 S PP 8.100000 7.710000 7 7 1SI17BT013 36.000000 S 31.500000 S 36.000000 S 40.000000 S+ 13.500000 S 27.000000 S 27.000000 S 30.000000 S+ PP 9.270000 9.140000 1 1 1SI17BT014 32.000000 A 31.500000 S 32.000000 A 40.000000 S+ 15.000000 S+ 24.000000 A 24.000000 A 30.000000 S+ PP 8.790000 8.210000 3 5 1SI17BT015 24.000000 C 28.000000 A 28.000000 B 32.000000 A 13.500000 S 21.000000 B 24.000000 A 21.000000 B PP 7.370000 7.320000 14 13 1SI17BT016 24.000000 C 24.500000 B 24.000000 C 24.000000 C 13.500000 S 18.000000 C 18.000000 C 18.000000 C PP 6.310000 6.530000 19 19 1SI17BT017 28.000000 B 28.000000 A 28.000000 B 28.000000 B 15.000000 S+ 21.000000 B 18.000000 C 18.000000 C PP 6.030000 6.520000 20 20 1SI17BT018 32.000000 A 31.500000 S 28.000000 B 32.000000 A 13.500000 S 21.000000 B 24.000000 A 24.000000 A PP 7.920000 7.320000 9 13 1SI17BT019 28.000000 B 24.500000 B 24.000000 C 28.000000 B 15.000000 S+ 21.000000 B 21.000000 B 21.000000 B PP 6.870000 6.750000 18 17 1SI17BT023 24.000000 C 28.000000 A 24.000000 C 28.000000 B 13.500000 S 21.000000 B 27.000000 S 21.000000 B PP 7.000000 6.680000 17 18 1SI17BT024 24.000000 C 21.000000 C 20.000000 D 28.000000 B 15.000000 S+ 0.000000 X 27.000000 S 18.000000 C PP 5.880000 6.780000 21 16 1SI";
+  var usn=document.getElementById("frm1").value;
+  var mnm= usn.length;
+  if(mnm!=10)
+  {
+      document.getElementById("demo").innerHTML = " <h1>INVALID USN</h1>";
+      return;
+  }
+  var usn1=usn.toUpperCase();
+  var n = str.indexOf(usn1);
+  if(n==-1)
+  {
+   	document.getElementById("demo").innerHTML = " INVALID USN";
+        return;
+   }
+  var name="";
+  var m = str.indexOf("1SI",n+3);
+  for(i=n;i<m;i++)
+  {
+  		name=name+str[i];
+  }
+  var marks=name.split(" ");
+  var marks2="<i>USN = "+marks[0]+"</i><br><br>BIOINFORMATION ="+marks[1]+"( grade = "+marks[2]+")<br><br>INDUSTRIAL BIOTECHNOLOGY="+marks[3]+"( grade = "+marks[4]+")<br><br>BIOREMEDIATION OF XENOBIOTICS ="+marks[5]+"( grade = "+marks[6]+")<br><br> BIOCHEMICAL REACTION ENGINEERING ="+marks[7]+"( grade = "+marks[8]+")<br><br> BIOINFORMATICS LAB ="+marks[9]+"( grade = "+marks[10]+")<br><br> PROJECT MANAGEMENT="+marks[11]+"( grade = "+marks[12]+")<br><br>HUMANITIES ="+marks[13]+"( grade = "+marks[14]+")<br><br>OPENELCTIVE ="+marks[15]+"( grade = "+marks[16]+")<br><br>SOFT SKILLS=( grade = "+marks[17]+")<br> <br><em> SGPA =</h1>"+marks[18]+"<br> <br> CGPA =</h1>"+marks[19]+"<br><br>RANK based on SGPA = "+marks[20]+"<br><br>RANK based on CGPA = "+marks[21]+"</em>";
+  document.getElementById("demo").innerHTML =marks2;
+  
+}
+</script>
+
+</body>
+</html>
