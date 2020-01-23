@@ -10,9 +10,9 @@
     <a href="1r.html"> <h2> FIRST YEAR  </h2></a>
      <br>
      <br>
-     <a href="2r.html"> <h2> SECOUND YEAR  </h2></a>
+     <a href="2r.html"> <h2> SECOND YEAR  </h2></a>
      <br>
-     <a href="3r.html"> <h2> THIRED YEAR </h2></a>
+     <a href="3r.html"> <h2> THIRD YEAR </h2></a>
      <br>
      <br>
      <a href="https://myresult.github.io/rank/"> <h2> VISIT THE WEB SITE </h2></a>
