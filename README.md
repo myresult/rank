@@ -19,5 +19,6 @@
      <br>
   <a href="mailto:lakshmikanthkcse@gmail.com"> <h2> ANY FEEDBACK <br> </h2></a>
      <br>
+     <p style="color:blue;float:right;">created by lakshmikanth k<br>CSE, SIT COLLAGE</p>
 </body>
 </html>
